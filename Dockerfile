@@ -1,4 +1,4 @@
-ROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk-slim
 
 
 ADD target/*.jar /STAGEONEAPI-0.0.1-SNAPSHOT.jar
