@@ -10,6 +10,6 @@ import java.time.Instant;
 public class StageOneApiController {
 @GetMapping("/UserDetails")
     public UserDetails getUserDetails() {
-    return new UserDetails("collinkimutai648@gmail.com", Instant.now(),"");
+    return new UserDetails("collinkimutai648@gmail.com", Instant.now(),"https://github.com/Collins48/Stagezero");
 }
 }
