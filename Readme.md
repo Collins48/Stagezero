@@ -1,17 +1,27 @@
-Task ZERO API
-Project Description
-This is a simple API with a Get Request that returns three fields:
 
-Email
-The current Date and Time is ISO 861 format
-The Github url of this repository
-The app is a basic Spring Application following the MVC architecture.
+Overview
 
-API Documentation
-Here a link to the API Documentation on postman 
+The Number Classification API is a RESTful service that takes a number as input and returns various mathematical properties about it, along with a fun fact retrieved from the Numbers API.
+Features
 
-Getting started with this repository
-Clone the repository to your local machine: git clone https://github.com/your-username/java-basics.git
-Make sure you have java 17 installed in your machine.
-Run the code by clicking on run in your favourite IDE.
-https://hng.tech/hire/java-developers
+Determines if a number is prime.
+
+Checks if a number is perfect.
+
+Identifies if a number is an Armstrong number.
+
+Determines if the number is odd or even.
+
+Computes the sum of the digits of the number.
+
+Fetches a fun fact about the number using the Numbers API.
+
+Technology Stack
+
+Java (JDK 17+)
+
+Spring Boot
+
+Deployment
+
+this can be deployed on  any cloud platforms
