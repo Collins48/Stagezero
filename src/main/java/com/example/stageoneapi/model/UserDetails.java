@@ -7,4 +7,5 @@ public record UserDetails(
         Instant current_datetime,
         String github_url
 ) {
+
 }
